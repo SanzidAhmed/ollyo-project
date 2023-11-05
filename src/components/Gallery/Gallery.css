@@ -27,6 +27,11 @@
     left: 20px;
 }
 
+.dragged {
+    border: 2px dashed #333;
+    background-color: '';
+}
+
 .layout:hover {
     opacity: 0.5;
 }
