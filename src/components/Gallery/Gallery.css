@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-
 }
+
 .individual {
     border: 1px solid aliceblue;
     position: relative;
 }
+
 .layout {
     position: absolute;
     top: 0;
@@ -18,15 +19,35 @@
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
+
+.checked {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .layout:hover {
     opacity: 0.5;
-    
 }
+
 .imageSize {
     height: 100%;
     width: 100%;
 }
+
 .large {
     grid-column: span 2;
     grid-row: span 2;
+}
+
+.checkboxdesign {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.layout .checkboxdesign {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
